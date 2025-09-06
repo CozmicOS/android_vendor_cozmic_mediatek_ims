@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := vendor/mediatek/ims
+LOCAL_PATH := vendor/cozmic/mediatek/ims
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/mediatek/ims
+    vendor/cozmic/mediatek/ims
 
 # ImsService
 PRODUCT_PACKAGES += \
