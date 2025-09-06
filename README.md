@@ -20,13 +20,13 @@
 1. **Clone this repository to your AOSP source tree**,:
 
 ```
-git clone https://github.com/techyminati/android_vendor_mediatek_ims vendor/mediatek/ims/
+git clone https://github.com/techyminati/android_vendor_mediatek_ims vendor/cozmic/mediatek/ims/
 ```
 
 2. **In your device-specific product makefile**, inherit the IMS configuration:
 
 ```
-$(call inherit-product, vendor/mediatek/ims/ims.mk)
+$(call inherit-product, vendor/cozmic/mediatek/ims/ims.mk)
 ```
 
 3. **Build AOSP** as usual. The prebuilt APK, overlays & properties will be included automatically.
