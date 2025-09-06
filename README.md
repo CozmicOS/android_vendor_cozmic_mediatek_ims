@@ -20,7 +20,7 @@
 1. **Clone this repository to your AOSP source tree**,:
 
 ```
-git clone https://github.com/techyminati/android_vendor_mediatek_ims vendor/cozmic/mediatek/ims/
+git clone https://github.com/CozmicOS/android_vendor_cozmic_mediatek_ims.git vendor/cozmic/mediatek/ims/
 ```
 
 2. **In your device-specific product makefile**, inherit the IMS configuration:
